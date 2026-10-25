@@ -16,11 +16,11 @@ public class AgeCheckServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // КРИТИЧЕСКИ ВАЖНО: явно задаём кодировку ответа
+
         response.setContentType("text/html; charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
 
-        // Для POST обязательно: читаем параметры в UTF-8
+
         request.setCharacterEncoding("UTF-8");
 
         String ageParam = request.getParameter("age");

@@ -4,13 +4,11 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
 
-    <!-- Объявление сервлета -->
     <servlet>
         <servlet-name>CityTimeServlet</servlet-name>
         <servlet-class>by.tms.lesson2442onl_2.CityTimeServlet</servlet-class>
     </servlet>
 
-    <!-- Маппинг на три URL -->
     <servlet-mapping>
         <servlet-name>CityTimeServlet</servlet-name>
         <url-pattern>/minsk</url-pattern>
